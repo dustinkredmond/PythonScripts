@@ -15,9 +15,6 @@ if len(sys.argv) > 1:
     for arg in sys.argv:
         excel_sheets.append(arg)
 
-# For testing
-excel_sheets.append("test.xls")
-
 if len(excel_sheets) == 0:
     print("Please supply the path to an Excel sheet as an argument.")
     sys.exit(-1)
