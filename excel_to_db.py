@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pandas as pd
 from os import access, R_OK
 from os.path import isfile
