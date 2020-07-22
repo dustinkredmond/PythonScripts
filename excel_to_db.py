@@ -13,7 +13,7 @@ import sys
 
 excel_sheets = []
 if len(sys.argv) > 1:
-    sys.argv.remove(0)  # argv[0] will be program name
+    sys.argv.remove(0)  # Not using program name, 86 it 
     for arg in sys.argv:
         excel_sheets.append(arg)
 
