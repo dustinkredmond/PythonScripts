@@ -14,6 +14,8 @@ import sys
 excel_sheets = []
 if len(sys.argv) > 1:
     sys.argv.remove(0)  # Not using program name, 86 it 
+  
+    # For each command line argument (spreadsheet)
     for arg in sys.argv:
         excel_sheets.append(arg)
 
